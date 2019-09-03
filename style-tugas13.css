@@ -1,0 +1,27 @@
+div.satu{
+    border: solid;
+    margin: 100px auto;
+    border-image-source: url("border2.png");
+    border-image-width: 15px;
+    border-image-repeat: round;
+    border-image-slice: 20 22;
+    border-image-outset: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    box-shadow: 25px 25px;
+}
+
+div.dua{
+    border: solid;
+    margin: 25px auto;
+    border-image-source: url("border1.png");
+    border-image-width: 30px;
+    border-image-repeat: round;
+    border-image-slice: 35;
+    border-image-outset: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(64, 64, 226);
+    box-shadow: 15px 15px 25px;
+}
